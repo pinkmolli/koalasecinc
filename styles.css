@@ -1,0 +1,355 @@
+body{
+     background-color: #fec478;
+    font-family: "Viga", sans-serif;
+    font-style: normal;
+}
+
+main-logo{
+    padding: 5px;
+    background-color: dimgray;
+    border:10px;
+    border-color: aqua
+}
+
+#logo
+
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {display: inline-block;}
+ul li:hover {background: #555;}
+ul li:hover ul {display: block;}
+ul li ul {
+  position: relative;
+  width: 400px;
+  display: none;
+}
+ul li ul li { 
+  background: #555; 
+  display: block; 
+}
+ul li ul li a {display:block !important;} 
+ul li ul li:hover {background: #666;}
+
+}
+
+li{
+    font-weight: 900;
+}
+
+.menulinks {
+    font-size: 30px;
+    text-shadow: black 30px 
+}
+
+/* unvisited link */
+a .menulinks:link {
+  color: #65a6da;
+}
+
+/* visited link */
+a:visited {
+  color: #65a6db;
+}
+
+/* mouse over link */
+a:hover {
+  color: #fec478;
+}
+
+a .menulinks{
+  color: #fec478;
+}
+
+
+/* selected link */
+a .menulinks:active {
+  color: #ffc667;
+}
+
+.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #65a6da; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.image-gal {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+#productgallery {
+    
+}
+
+.image-gal{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    transition: transform .2s;
+}
+.image-gal:hover {
+    transform: scale(2.5);
+}
+
+.buybox {
+    margin: 65px;
+    width: 15%;
+    text-align:center;
+    background-color:#6cbdff;
+    border-style:solid;
+    padding:15px;
+    border-color:#65a6db;
+    border-width: 12px;
+    box-shadow: 0 5px #000;
+    float: left;
+}
+
+#buybutton {
+    font-family: "Viga", sans-serif;
+    font-style: normal;
+    padding: 10px;
+    border: 15px;
+    border-color: black
+}
+
+#buybutton:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#buybutton:active {
+  background-color: #65a6db;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.scrollimages{
+    width: 500px ;
+    margin: 15px;
+    border-style:solid;
+    border-color:#65a6db;
+    border-width: 12px;
+    box-shadow: 0 5px #000; 
+}
+
+h1{
+    text-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    padding:10px;
+}
+
+h1:hover {
+  
+}
+
+.videoembed{
+    float:right;
+}
+
+.mission {
+    margin: 65px;
+    width: 90%;
+    text-align:center;
+    font-weight: 200;
+    background-color:#6cbdff;
+    border-style:solid;
+    padding:15px;
+    border-color:#65a6db;
+    border-width: 12px;
+    box-shadow: 0 5px #000;
+    font-size: 30px;
+
+}
+
+#heading-mission {
+    color:#6cbdff;
+    text-align:center;
+    font-size: 200px;
+    text-shadow:0 10px #000;
+}
+
+#happy {
+    background-color:#fec478;
+    border-style:solid;
+    padding:15px;
+    border-color:#666;
+    border-width: 12px;
+    box-shadow: 0 5px #000;
+}
+
+footer {
+    text-align: center;
+}
+
+table, th, td {
+  border: 3px solid black;
+  border-collapse: collapse;
+  text-align: left
+}
+
+#faqtable {
+    margin: 65px;
+    width: 90%;
+}
+
+th, td {
+  background-color: #6cbdff;
+  padding: 10px;
+    border-style:solid;
+    padding:15px;
+    border-color:#65a6db;
+    border-width: 12px;
+    box-shadow: 0 5px #000;
+    font-size: 30px;
+    font-weight: 100;
+    box-shadow: 0 5px #000;
+}
+
+th a:visited {
+    color:#fec478;
+}
+
+#comment-input {
+    margin: 65px;
+    width: 40%;
+    text-align:center;
+    font-weight: 200;
+    background-color:#6cbdff;
+    border-style:solid;
+    padding:15px;
+    border-color:#65a6db;
+    border-width: 12px;
+    box-shadow: 0 5px #000;
+    font-size: 30px;
+    border-radius: 12px;
+}
+
+#submitbutton {
+    margin: 25px;
+    width: 30%;
+    text-align:center;
+    font-weight: 200;
+    background-color:#6cbdff;
+    border-style:solid;
+    padding:15px;
+    border-color:#65a6db;
+    border-width: 12px;
+    box-shadow: 0 5px #000;
+    font-size: 30px;
+    border-radius: 4px;
+}
+
+#submitbutton:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#submitbutton:active {
+  background-color: #65a6db;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.Ucomments{
+    width:70%;
+    background-color: #6cbdff;
+    padding: 10px;
+    border-style:solid;
+    padding:15px;
+    border-color:#65a6db;
+    border-width: 12px;
+    box-shadow: 0 5px #000;
+    font-size: 30px;
+    font-weight: 100;
+    box-shadow: 0 5px #000;
+}
+
+#comment-list li{
+    margin:30px;
+    padding:60px;
+}
+
+#review-heading {
+    color:#6cbdff;
+    text-align:left;
+    font-size: 200px;
+    text-shadow:0 10px #000;
+}
+
+.buybox2 {
+    margin: 80px;
+    width: 90%;
+    text-align:center;
+    background-color:#6cbdff;
+    border-style:solid;
+    padding:10px;
+    border-color:#65a6db;
+    border-width: 12px;
+    box-shadow: 0 5px #000;
+    font-size: 60px;
+    text-shadow:0 10px rgba(0,0,0,0.10);
+ 
+}
+
+#productZ {
+    border-style:solid;
+    padding:15px;
+    border-color:#65a6db;
+    border-width: 12px;
+}
+
+#buybuttonbig {
+    font-family: "Viga", sans-serif;
+    font-style: normal;
+    padding: 60px;
+    margin:30px;
+    border: 15px;
+    width: 800px;
+     font-size: 60px;
+    border-color: black
+}
+
+#buybuttonbig:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#buybuttonbig:active {
+  background-color: #65a6db;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.text_small {
+    font-size: 20px;
+}
+
+#cart {
+    float: right;
+    background-color:#65a6db;
+    padding:13px;
+    margin:20px;
+    border: 15px;
+    border-color: #65a6db;
+    border-radius: 50px;
+    
+}
+
+#cart:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+background-color:cyan;
+}
+
+#cart:active {
+  background-color: #65a6db;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+    background-color:lawngreen;
+}
